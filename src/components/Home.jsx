@@ -12,10 +12,10 @@ const Home = () => {
                 Me chamo Jean, tenho 24 anos e moro em São Paulo - SP. Atualmente, vivo com os meus pais, mas busco a minha independência. Para conseguir isso, busco uma vaga na Desenvolvimento e UX UI, área pela qual sempre fui apaixonado.
                 </p>
                 <div>
-                    <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500'>
+                    <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                         Portifolio
-                        <span>
-                        <MdOutlineKeyboardArrowRight/>
+                        <span className='group-hover:rotate-90 duration 300'>
+                        <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
                         </span>                        
                     </button>
                 </div>
