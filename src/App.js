@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import SocialLinks from "./components/SocialLinks";
 import About from "./components/About"
 import Porfolio from "./components/Porfolio";
-import Experience from "./assets/Experience";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -12,8 +12,9 @@ function App() {
       <Home/>
       <About/>
       <Porfolio/>
-      <Experience/>
       <SocialLinks/>
+      <Experience/>
+      
     </div>
   );
 }
